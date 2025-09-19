@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background-color: transparent;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.dimmed {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s ease;
+}
+
+body.hidden {
+  opacity: 0;
+  pointer-events: none;
+  background-color: transparent;
+  transition: opacity 3s ease;
+  
+}
+
+body.op{
+  opacity: 0;
+}
+
+
+.card {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-right: 10px;
+  border-radius: 10px;
+  width: auto;
+  height: 200px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  animation: slide-right 3s ease;
+  transition: opacity 2s ease; 
+}
+
+.card.fade-out {
+  opacity: 0; 
+}
+
+body.fade-out {
+  background-color: transparent; 
+  transition: background-color 3s ease, opacity 3s ease;
+}
+
+
+.card > img{
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card > .info{
+  display: grid;
+  gap: 10px;
+  color: #fff;
+}
+
+.card  .title-name{
+  color: #f00;
+}
+
+
+
+@keyframes slide-right {
+  from {
+    transform: translateX(-200%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
