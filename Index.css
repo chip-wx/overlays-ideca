@@ -67,12 +67,12 @@ body.fade-out {
   color: #fff;
   
 }
-.card. .title{
-  font-size: 8rem;
+.card .title{
+  font-size: 5rem;
 }
 
 .card .title-info{
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .card  .title-name{
   color: #f00;
@@ -90,4 +90,5 @@ body.fade-out {
   }
 
 }
+
 
