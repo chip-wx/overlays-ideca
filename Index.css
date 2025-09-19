@@ -14,7 +14,7 @@ body{
 }
 
 body.dimmed {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   transition: background-color 0.5s ease;
 }
 
@@ -33,7 +33,7 @@ body.op{
 
 .card {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   padding-right: 10px;
   border-radius: 10px;
   width: auto;
@@ -68,7 +68,11 @@ body.fade-out {
   
 }
 .card. .title{
-  font-size: 4rem;
+  font-size: 8rem;
+}
+
+.card .title-info{
+  font-size: 5rem;
 }
 .card  .title-name{
   color: #f00;
@@ -86,3 +90,4 @@ body.fade-out {
   }
 
 }
+
