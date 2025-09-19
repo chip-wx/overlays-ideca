@@ -37,7 +37,7 @@ body.op{
   padding-right: 10px;
   border-radius: 10px;
   width: auto;
-  height: 200px;
+  height: 500px;
   display: flex;
   gap: 40px;
   align-items: center;
@@ -57,7 +57,7 @@ body.fade-out {
 
 
 .card > img{
-  height: 200px;
+  height: 500px;
   border-radius: 10px;
 }
 
@@ -65,10 +65,14 @@ body.fade-out {
   display: grid;
   gap: 10px;
   color: #fff;
+  
 }
-
+.card. .title{
+  font-size: 4rem;
+}
 .card  .title-name{
   color: #f00;
+  
 }
 
 
@@ -80,4 +84,5 @@ body.fade-out {
   to {
     transform: translateX(0);
   }
+
 }
